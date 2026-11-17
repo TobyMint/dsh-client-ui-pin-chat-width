@@ -1,0 +1,32 @@
+{
+  "name": "dsh-client-ui-pin-chat-width",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pins the Web conversation width by hiding the transcript drag handles that resize the column and composer",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobyMint/dsh-client-ui-pin-chat-width.git"
+  },
+  "homepage": "https://github.com/TobyMint/dsh-client-ui-pin-chat-width#readme",
+  "bugs": {
+    "url": "https://github.com/TobyMint/dsh-client-ui-pin-chat-width/issues"
+  }
+}
