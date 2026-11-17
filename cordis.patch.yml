@@ -1,0 +1,7 @@
+# dsh-client-ui-pin-chat-width bundle 层：插入插件行。
+# host 半（exports "."）是一个空 apply，只在 Loader 里占一行；
+# client 半（exports "./client"）跑在 Web GUI，注入一条隐藏拖拽把手的样式。
+- insert:
+    - id: pin-chat-width
+      name: 'dsh-client-ui-pin-chat-width'
+      config: {}

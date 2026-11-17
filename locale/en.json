@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Pin chat width",
+    "description": "Hides the conversation drag handles so the transcript column and composer keep their width."
+  }
+}
