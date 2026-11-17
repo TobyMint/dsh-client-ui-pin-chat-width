@@ -26,7 +26,7 @@ DSH Web GUI 的一个极小组合包：**把对话列宽度钉住**。
 
 ```bash
 # 1) 装依赖（固定 tag；本地开发时改用 link:/path/to/checkout）
-dsh plugin --profile web add github:TobyMint/dsh-client-ui-pin-chat-width#v0.2.0
+dsh plugin --profile web add github:TobyMint/dsh-client-ui-pin-chat-width#v0.2.1
 ```
 
 2) 把 `dsh-client-ui-pin-chat-width` 加进 profile `package.json` 的
